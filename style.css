@@ -1,0 +1,175 @@
+/* Info Page */
+
+.infoContainer{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 2em;
+    word-spacing: 5px;
+}
+
+h1{
+    font-family:cursive ;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-left: 10%;
+}
+
+.image1{
+    float: left;
+    width: 35em;
+    height: 30em;
+    padding-top: 2%;
+    margin-left: 10%;
+    box-sizing: border-box;
+}
+
+.image2{
+    float: right;
+    width: 35em;
+    height: 30em;
+    padding-top: 2%;
+    margin-right: 10%;
+    box-sizing: border-box;
+}
+
+.clearFix{
+    clear: both;
+}
+
+.boxLeft{
+    float: left;
+    width: 35em;
+    height: 18em;
+    padding-top: 2%;
+    margin-left: 10%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.boxLeft p{
+    text-align: justify;
+}
+
+.boxRight{
+    float: right;
+    width: 35em;
+    height: 18em;
+    padding-top: 2%;
+    margin-right: 10%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.boxRight p{
+    text-align: justify;
+}
+
+.LeftButton{
+    float:left;
+    padding-top: 2%;
+    margin-left: 10%;
+}
+
+.LeftButton .btnLeft{
+    background: none;
+    cursor: pointer;
+    border: none;
+    width: 7em;
+    height: 3em;
+    background-color: blue;
+    color: #fff;
+} 
+
+.btnLeft:hover{
+    background-color: red;
+}
+
+.RightButton{
+    float:right;
+    padding-top: 2%;
+    margin-right: 615px;
+}
+
+.RightButton .btnRight{
+    background: none;
+    cursor: pointer;
+    border: none;
+    width: 7em;
+    height: 3em;
+    background-color: blue;
+    color: #fff;
+} 
+
+.btnRight:hover{
+    background-color: red;
+}
+
+/* LOGIN */
+
+.loginContainer{
+    margin-top: 2em;
+    position: relative;
+}
+
+.loginContainer .Bimage{
+    height: 70em;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-image: url(images/essuDorm.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    filter: blur(2px);
+}
+
+.form{
+    background-color: black;  
+    position: absolute;
+    width: 15em;
+    top: 25%;
+    margin-left: 34%;
+    font-size: 20pt;
+    color:aquamarine;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-left: 50px;
+    border: 6px white solid;
+    border-radius: 30px;
+
+}
+
+.form #username{
+    font-size: 15pt;
+    border-radius: 10px;
+    text-align: center;
+    border-color: aqua;
+    width: 10em;
+}
+
+.form #password{
+    font-size: 15pt;
+    border-radius: 10px;
+    text-align: center;
+    padding-right: 3px;
+    margin-left: 6px;
+    border-color: aqua;
+    width: 10em;
+}
+
+.form #proceed{
+    font-size: 20pt;
+    width: 200px;
+    border-radius: 20px;
+    margin-left:23%;
+    margin-top: 15%;
+    cursor: pointer;
+    border-color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    color:maroon;
+    margin-bottom: 30px;
+}
+
+.hLine{
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 3px;
+    background-color: skyblue;
+}
